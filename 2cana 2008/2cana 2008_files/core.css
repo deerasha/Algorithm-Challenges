@@ -1,0 +1,424 @@
+/* BASE HTML ELEMENT MODIFICATIONS */
+fieldset{border:0px;margin:0px;padding:0px;display:block;}
+img{border:0px;}
+
+/* ANCHOR TAGS */
+a.noline:link{text-decoration:none;}
+a.noline:visited{text-decoration:none;}
+
+a.itemLabel{color:black;font-size:10pt;}
+a.itemLabel:link{text-decoration:none;color:black;}
+a.itemLabel:visited{text-decoration:none;color:black;}
+a.itemLabel:hover{text-decoration:underline;}
+
+a.list{color:black;font-size:10pt;text-decoration:none;}
+a.list:link{text-decoration:none;}
+a.list:visited{text-decoration:none;}
+a.list:hover{text-decoration:underline;}
+
+/* FONTS */
+  /* RELATIVE SIZES */
+.black80{font-size:80%;color:black;}
+.black85{font-size:85%;color:black;}
+.black90{font-size:90%;color:black;}
+.black95{font-size:95%;color:black;}
+.black100{font-size:100%;color:black;}
+.black110{font-size:110%;color:black;}
+.black120{font-size:120%;color:black;}
+.black130{font-size:130%;color:black;}
+.black140{font-size:140%;color:black;}
+.black150{font-size:150%;color:black;}
+         
+.white80{font-size:80%;color:white;}
+.white85{font-size:85%;color:white;}
+.white90{font-size:90%;color:white;}
+.white95{font-size:95%;color:white;}
+.white100{font-size:100%;color:white;}
+.white110{font-size:110%;color:white;}
+.white120{font-size:120%;color:white;}
+.white130{font-size:130%;color:white;}
+.white140{font-size:140%;color:white;}
+.white150{font-size:150%;color:white;}
+
+  /* ABSOLUTE SIZES - we need to change these to relative sizes eventually. */
+.fielddata{font-size:10pt; color:#000000;}
+.fielddatabold{font-size:10pt; font-weight: bold; color:#000000;}
+.fielddatasmall{font-size:8pt; color:#000000;}
+table.tiny td{padding:2px;}
+.tiny {font-size: 7.5pt;}
+.code{font-size:10pt;font-family:"courier new",monospaced;}
+
+/* CLASSES USED BY THE REPORTING ENGINE, MAY BE COLOR SPECIFIC */
+.tableheader{font-size: 10pt;font-weight: bold;background: #cccc99;color: #336699;}
+.tabledata{font-size: 10pt;background: #f7f7e7;color: #000000;}
+.tabledata-alt{font-size:10pt;background:#ffffff; color:#000000;}
+.tabledatabold{font-size:10pt; font-weight:bold; background:#f7f7e7; color:#000000;}
+
+table.standardLook th{font-size:10pt;font-weight:bold; color:#000000;padding:2px 3px 2px 3px; white-space:nowrap;vertical-align:bottom;}
+table.standardLook td{font-size:10pt;color: #000000;padding:2px 3px 2px 3px;}
+
+table.default1 th{font-size:10pt; font-weight: bold;background: #cccc99; color: #336699;padding:2px; white-space:nowrap;vertical-align:bottom;}
+table.default1 td{font-size:10pt;background: #f7f7e7;color: #000000;padding:2px;}
+table.default1 td.alt{font-size:10pt;background:#ffffff; color:#000000;}
+
+table.default2 {border-left:1px #cccc99 solid;border-top:1px #cccc99 solid; background:#f7f7e7;font-size:10pt; margin-top:1px;}
+table.default2 th{font-weight: bold;background: #cccc99;color: #336699;padding:2px;border-bottom:1px #f7f7e7 solid; border-right:1px #f7f7e7 solid;font-size:10pt;white-space:nowrap;vertical-align:bottom;}
+table.default2 td{padding:2px;border-bottom:1px #cccc99 solid;border-right:1px #cccc99 solid;font-size:10pt;}
+
+table.default3 th{font-size:8pt;font-weight:bold; color:#000000;}
+table.default3 td{font-size:8pt;color: #000000;}
+
+table.default4 { margin:5px auto 0.5em auto; border-left:1px solid #cccccc; border-top:1px solid #cccccc; border-right:1px solid #999999; border-bottom:1px solid #999999; background-color:#efefef; }
+table.default4 td { border-left:1px solid #ffffff; border-top:1px solid #ffffff; border-right:1px solid #cccccc; border-bottom:1px solid #cccccc; }
+table.default4 th { font-weight:bold;font-size:10pt;color:#ffffff;background-color:#bbbbbb; border-left:1px solid #e0e7f7; border-top:1px solid #e0e7f7; border-right:1px solid #999999; border-bottom:1px solid #999999; white-space:nowrap;vertical-align:bottom;}
+table.default4 td.even { background-color:#fefefe;font-size:10pt;white-space:nowrap;}
+table.default4 td.odd { background-color:#efefef; font-size:10pt;white-space:nowrap;}
+
+table.vertical1 td{font-size:10pt;color: #000000;padding:2px 5px 2px 5px;}
+table.vertical1 td.L{text-align:right;padding-right:6px;}
+table.vertical1 td.R{text-align:left;font-weight:bold;padding-left:3px;}
+table.vertical1 td.vertical1Border{font-size:0pt;height:1px;}
+
+table.vertical2 {border:1px #bbbbbb solid;border-collapse:collapse; background:#ffffff;font-size:10pt; margin-top:1px;}
+table.vertical2 td.L{font-weight: bold;padding:2px;white-space:nowrap;vertical-align:bottom;width:30%;text-align:right;border:1px #bbbbbb solid;background:#999999;color:#ffffff;}
+table.vertical2 td{padding:2px;border:1px #bbbbbb solid;text-align:left;}
+
+/* USED FOR INLINE EDIT IMAGES */
+ img.eLink,a.eLink{border:none;width:7px;height:7px;display:none !important;}
+ img.eLinkOn,a.eLinkOn{border:none;width:7px;height:7px;display:inline !important;}
+
+ul.noIndent{margin:0em;padding-left:1.2em;}
+ul.noIndent li{ padding-left: 0em;}
+    
+div.popupHead{ background-color:#cccccc; padding:4px; border-bottom: 1px #999999 solid;} 
+    
+/* Class(es) to hide html elements that only apply to Section 508 rules */
+.hideMe508{display:none;}
+
+/* styles for developer toolbar */
+#htmldbDevToolbar{font-size:10px;border-left:1px solid #000000;border-right:1px solid #000000;height:18px;background-color:#F7F7E7;border:1px solid #000000;text-align:center;}
+
+a.htmldbToolbar {line-height:14px;font-size:10px;border-top:1px solid #000000; border-bottom:1px solid #000000; background-color:#F7F7E7; color:#811919;text-decoration:none;display:inline-block;padding:2px;padding-left:5px;padding-right:5px;font-weight:bold;}
+a.htmldbToolbar:link{font-size:10px;color:#811919;text-decoration:none;display:inline-block;padding:2px;padding-left:5px;padding-right:5px;font-weight:bold;}
+a.htmldbToolbar:visited{font-size:10px;color:#811919;text-decoration:none;display:inline-block;padding:2px 5px;font-weight:bold;}
+a.htmldbToolbar:hover{font-size:10px;text-decoration:underline;color:#FF0000;background:#C5D5C5;padding:2px 5px;font-weight:bold;}
+
+/* Other */
+span.errTxt{color:#ff0000;font-size:7.5pt;}
+
+div.htmldbDebug{padding-left:3px;font-size:10px !important;}
+
+div.htmldbHtmlEditor{font-size:12px;}
+div.htmldbHtmlEditor p{font-size:inherit;}
+div.htmldbHtmlEditor em{font-style: italic;font-size:12px;}
+
+div.htmldbHtmlEditor h1{font-size:120%}
+div.htmldbHtmlEditor h2{font-size:140%}
+div.htmldbHtmlEditor h3{font-size:160%}
+div.htmldbHtmlEditor h4{font-size:180%}
+div.htmldbHtmlEditor h5{font-size:200%}
+div.htmldbHtmlEditor h6{font-size:220%}
+
+div.htmldbHtmlEditor ol,div.htmldbHtmlEditor ol li{ list-style-type: decimal;font-size:inherit;}
+div.htmldbHtmlEditor ul,div.htmldbHtmlEditor ul li{ list-style-type: disc;font-size:inherit;}
+
+TD.homePageTextSmall {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none;
+}
+TD.homePageTextBig {
+	FONT-SIZE: 11pt; COLOR: #000000; TEXT-DECORATION: none; font-weight: bold;
+}
+TD.homepageText {
+	FONT-SIZE: 9pt; COLOR: #000000; TEXT-DECORATION: none; font-weight: bold;
+}
+TD.welcome {
+	FONT-SIZE: 12pt; COLOR: #000000; TEXT-DECORATION: none; font-weight: bold;
+}
+TD.contentTopBackground {
+	background-image:url("/layouts/i/layout/carCheckContent_Top_Repeat.gif"); background-attachment:scroll; background-repeat:no-repeat; background-position:top left
+}
+TD.legal {
+	FONT-SIZE: 7pt; COLOR: #e20a16; TEXT-DECORATION: none
+}
+A.legalLink {
+	FONT-SIZE: 7pt; COLOR: #e20a16; TEXT-DECORATION: none
+}
+A.legalLink:hover {
+	FONT-SIZE: 7pt; COLOR: #e20a16; TEXT-DECORATION: none
+}
+FIELDSET {
+	BORDER-RIGHT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; BORDER-LEFT: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: 0px
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+A.noline:link {
+	TEXT-DECORATION: none
+}
+A.noline:visited {
+	TEXT-DECORATION: none
+}
+A.itemLabel {
+	FONT-SIZE: 10pt; COLOR: black
+}
+A.itemLabel:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.itemLabel:visited {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.itemLabel:hover {
+	TEXT-DECORATION: underline
+}
+A.list {
+	FONT-SIZE: 10pt; COLOR: black; TEXT-DECORATION: none
+}
+A.list:link {
+	TEXT-DECORATION: none
+}
+A.list:visited {
+	TEXT-DECORATION: none
+}
+A.list:hover {
+	TEXT-DECORATION: underline
+}
+.black80 {
+	FONT-SIZE: 80%; COLOR: black
+}
+.black85 {
+	FONT-SIZE: 85%; COLOR: black
+}
+.black90 {
+	FONT-SIZE: 90%; COLOR: black
+}
+.black95 {
+	FONT-SIZE: 95%; COLOR: black
+}
+.black100 {
+	FONT-SIZE: 100%; COLOR: black
+}
+.black110 {
+	FONT-SIZE: 110%; COLOR: black
+}
+.black120 {
+	FONT-SIZE: 120%; COLOR: black
+}
+.black130 {
+	FONT-SIZE: 130%; COLOR: black
+}
+.black140 {
+	FONT-SIZE: 140%; COLOR: black
+}
+.black150 {
+	FONT-SIZE: 150%; COLOR: black
+}
+.white80 {
+	FONT-SIZE: 80%; COLOR: white
+}
+.white85 {
+	FONT-SIZE: 85%; COLOR: white
+}
+.white90 {
+	FONT-SIZE: 90%; COLOR: white
+}
+.white95 {
+	FONT-SIZE: 95%; COLOR: white
+}
+.white100 {
+	FONT-SIZE: 100%; COLOR: white
+}
+.white110 {
+	FONT-SIZE: 110%; COLOR: white
+}
+.white120 {
+	FONT-SIZE: 120%; COLOR: white
+}
+.white130 {
+	FONT-SIZE: 130%; COLOR: white
+}
+.white140 {
+	FONT-SIZE: 140%; COLOR: white
+}
+.white150 {
+	FONT-SIZE: 150%; COLOR: white
+}
+.fielddata {
+	FONT-SIZE: 10pt; COLOR: #000000
+}
+.fielddatabold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000
+}
+.fielddatasmall {
+	FONT-SIZE: 8pt; COLOR: #000000
+}
+TABLE.tiny TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.tiny {
+	FONT-SIZE: 7.5pt
+}
+.code {
+	FONT-SIZE: 10pt; FONT-FAMILY: "courier new",monospaced
+}
+.tableheader {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #cccc99; COLOR: #336699
+}
+.tabledata {
+	FONT-SIZE: 10pt; BACKGROUND: #f7f7e7; COLOR: #000000
+}
+.tabledata-alt {
+	FONT-SIZE: 10pt; BACKGROUND: #ffffff; COLOR: #000000
+}
+.tabledatabold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #f7f7e7; COLOR: #000000
+}
+TABLE.standardLook TH {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: bottom; COLOR: #000000; PADDING-TOP: 2px; WHITE-SPACE: nowrap
+}
+TABLE.standardLook TD {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+TABLE.default1 TH {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #cccc99; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: bottom; COLOR: #336699; PADDING-TOP: 2px; WHITE-SPACE: nowrap
+}
+TABLE.default1 TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10pt; BACKGROUND: #f7f7e7; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+TABLE.default1 TD.alt {
+	FONT-SIZE: 10pt; BACKGROUND: #ffffff; COLOR: #000000
+}
+TABLE.default2 {
+	BORDER-TOP: #cccc99 1px solid; MARGIN-TOP: 1px; FONT-SIZE: 10pt; BACKGROUND: #f7f7e7; BORDER-LEFT: #cccc99 1px solid
+}
+TABLE.default2 TH {
+	BORDER-RIGHT: #f7f7e7 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-WEIGHT: bold; FONT-SIZE: 10pt; BACKGROUND: #cccc99; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: bottom; COLOR: #336699; PADDING-TOP: 2px; BORDER-BOTTOM: #f7f7e7 1px solid; WHITE-SPACE: nowrap
+}
+TABLE.default2 TD {
+	BORDER-RIGHT: #cccc99 1px solid; PADDING-RIGHT: 2px; PADDING-LEFT: 2px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #cccc99 1px solid
+}
+TABLE.default3 TH {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #000000
+}
+TABLE.default3 TD {
+	FONT-SIZE: 8pt; COLOR: #000000
+}
+TABLE.default4 {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #cccccc 1px solid; MARGIN: 5px auto 0.5em; BORDER-LEFT: #cccccc 1px solid; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #efefef
+}
+TABLE.default4 TD {
+	BORDER-RIGHT: #cccccc 1px solid; BORDER-TOP: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BORDER-BOTTOM: #cccccc 1px solid
+}
+TABLE.default4 TH {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #e0e7f7 1px solid; FONT-WEIGHT: bold; FONT-SIZE: 10pt; VERTICAL-ALIGN: bottom; BORDER-LEFT: #e0e7f7 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #999999 1px solid; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #bbbbbb
+}
+TABLE.default4 TD.even {
+	FONT-SIZE: 10pt; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #fefefe
+}
+TABLE.default4 TD.odd {
+	FONT-SIZE: 10pt; WHITE-SPACE: nowrap; BACKGROUND-COLOR: #efefef
+}
+TABLE.vertical1 TD {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 10pt; PADDING-BOTTOM: 2px; COLOR: #000000; PADDING-TOP: 2px
+}
+TABLE.vertical1 TD.L {
+	PADDING-RIGHT: 6px; TEXT-ALIGN: right
+}
+TABLE.vertical1 TD.R {
+	PADDING-LEFT: 3px; FONT-WEIGHT: bold; TEXT-ALIGN: left
+}
+TABLE.vertical1 TD.vertical1Border {
+	FONT-SIZE: 0pt; HEIGHT: 1px
+}
+TABLE.vertical2 {
+	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; MARGIN-TOP: 1px; FONT-SIZE: 10pt; BACKGROUND: #ffffff; BORDER-LEFT: #bbbbbb 1px solid; BORDER-BOTTOM: #bbbbbb 1px solid; BORDER-COLLAPSE: collapse
+}
+TABLE.vertical2 TD.L {
+	BORDER-RIGHT: #bbbbbb 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #bbbbbb 1px solid; PADDING-LEFT: 2px; FONT-WEIGHT: bold; BACKGROUND: #999999; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: bottom; BORDER-LEFT: #bbbbbb 1px solid; WIDTH: 30%; COLOR: #ffffff; PADDING-TOP: 2px; BORDER-BOTTOM: #bbbbbb 1px solid; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+TABLE.vertical2 TD {
+	BORDER-RIGHT: #bbbbbb 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #bbbbbb 1px solid; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; BORDER-LEFT: #bbbbbb 1px solid; PADDING-TOP: 2px; BORDER-BOTTOM: #bbbbbb 1px solid; TEXT-ALIGN: left
+}
+IMG.eLink {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; DISPLAY: none! important; BORDER-LEFT: medium none; WIDTH: 7px; BORDER-BOTTOM: medium none; HEIGHT: 7px
+}
+A.eLink {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; DISPLAY: none! important; BORDER-LEFT: medium none; WIDTH: 7px; BORDER-BOTTOM: medium none; HEIGHT: 7px
+}
+IMG.eLinkOn {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; DISPLAY: inline! important; BORDER-LEFT: medium none; WIDTH: 7px; BORDER-BOTTOM: medium none; HEIGHT: 7px
+}
+A.eLinkOn {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; DISPLAY: inline! important; BORDER-LEFT: medium none; WIDTH: 7px; BORDER-BOTTOM: medium none; HEIGHT: 7px
+}
+UL.noIndent {
+	PADDING-LEFT: 1.2em; MARGIN: 0em
+}
+UL.noIndent LI {
+	PADDING-LEFT: 0em
+}
+DIV.popupHead {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #cccccc
+}
+.hideMe508 {
+	DISPLAY: none
+}
+#htmldbDevToolbar {
+	BORDER-RIGHT: #000000 1px solid; BORDER-TOP: #000000 1px solid; FONT-SIZE: 10px; BORDER-LEFT: #000000 1px solid; BORDER-BOTTOM: #000000 1px solid; HEIGHT: 18px; BACKGROUND-COLOR: #f7f7e7; TEXT-ALIGN: center
+}
+A.htmldbToolbar {
+	PADDING-RIGHT: 5px; BORDER-TOP: #000000 1px solid; DISPLAY: inline-block; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #811919; LINE-HEIGHT: 14px; PADDING-TOP: 2px; BORDER-BOTTOM: #000000 1px solid; BACKGROUND-COLOR: #f7f7e7; TEXT-DECORATION: none
+}
+A.htmldbToolbar:link {
+	PADDING-RIGHT: 5px; DISPLAY: inline-block; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #811919; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.htmldbToolbar:visited {
+	PADDING-RIGHT: 5px; DISPLAY: inline-block; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; PADDING-BOTTOM: 2px; COLOR: #811919; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+A.htmldbToolbar:hover {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 10px; BACKGROUND: #c5d5c5; PADDING-BOTTOM: 2px; COLOR: #ff0000; PADDING-TOP: 2px; TEXT-DECORATION: underline
+}
+SPAN.errTxt {
+	FONT-SIZE: 7.5pt; COLOR: #ff0000
+}
+DIV.htmldbDebug {
+	PADDING-LEFT: 3px; FONT-SIZE: 10px! important
+}
+DIV.htmldbHtmlEditor {
+	FONT-SIZE: 12px
+}
+DIV.htmldbHtmlEditor P {
+	
+}
+DIV.htmldbHtmlEditor EM {
+	FONT-SIZE: 12px; FONT-STYLE: italic
+}
+DIV.htmldbHtmlEditor H1 {
+	FONT-SIZE: 120%
+}
+DIV.htmldbHtmlEditor H2 {
+	FONT-SIZE: 140%
+}
+DIV.htmldbHtmlEditor H3 {
+	FONT-SIZE: 160%
+}
+DIV.htmldbHtmlEditor H4 {
+	FONT-SIZE: 180%
+}
+DIV.htmldbHtmlEditor H5 {
+	FONT-SIZE: 200%
+}
+DIV.htmldbHtmlEditor H6 {
+	FONT-SIZE: 220%
+}
+DIV.htmldbHtmlEditor OL {
+	LIST-STYLE-TYPE: decimal
+}
+DIV.htmldbHtmlEditor OL LI {
+	LIST-STYLE-TYPE: decimal
+}
+DIV.htmldbHtmlEditor UL {
+	LIST-STYLE-TYPE: disc
+}
+DIV.htmldbHtmlEditor UL LI {
+	LIST-STYLE-TYPE: disc
+}
