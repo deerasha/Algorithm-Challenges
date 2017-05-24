@@ -1,0 +1,65 @@
+case : n=5, w=4
+clockwise from next to out
+4
+3
+5
+2
+1 is left
+
+counterclockwise from next to out
+3
+4
+2
+5
+1 is left
+
+clockwise from 1
+4
+5
+1
+3
+2 is left
+
+counterclockwise from 1
+3
+2
+1
+4
+5 is left
+
+case n=6, w=4
+clockwise from next to out
+4
+3
+2
+1 
+6
+5 is left
+
+counterclockwise from next to out
+4
+6
+1
+5
+2
+3 is left
+
+clockwise from 1
+4
+5
+6
+1
+3
+2 is left
+
+counterclockwise from 1
+4
+3
+2
+1
+5
+6 is left
+
+for a minimal case: n=7, w=2 
+for a minimal case: n=6, w=2
+in fact for any, it would be 2 if 1 is pointing as one will always point away from itself on the 2nd out word

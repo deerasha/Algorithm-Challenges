@@ -1,0 +1,25 @@
+Item 1- L=12
+Item 2- Jeb L=16
+Item 3- Daphne L=19
+Item 4- Lulu L=17
+Item 5- Bob L=16
+Item 6- Bo L=15
+I 5- L= 9
+#
+Item 1- L=12
+Item 2- Jeb L=16
+Item 3- Daphne L=19
+Item 4- Lulu L=17
+Item 5- Bob L=16
+Item 6- Bo L=15
+Item 7- Ariel =18
+#
+Item 1- L=12
+Item 2- Ali L=16
+Item 3- Daphne L=19
+Item 4- Weschler L=20
+Item 5- Lulu L=17
+Item 6- Bob L=16
+Item 7- Deerasha L=20
+#
+.
