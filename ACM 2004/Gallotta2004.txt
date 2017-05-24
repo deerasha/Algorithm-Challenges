@@ -1,0 +1,61 @@
+After some delays due to technical reasons we started at around 10:00, although we were 
+scheduled to begin at 09:00. The first problem we solve was the 
+
+Powers [WHITE]
+
+problem. We solved
+it very quickly after Harry realised using logarithms was a very quick and short solution.
+The next problem Harry solved quite quickly as well - the 
+
+Bookshelf [BLUE] 
+
+problem. The solution 
+used dynamic programming.
+After the first two, the remaining problems took a bit more time to come up with solutions.
+I might have the order in which we solved the next two problems the wrong way around (the
+results page has been removed), but as far as I can remember the third problem we solved 
+was the 
+
+Rendering Fractal Images [GREEN]
+
+problem, which Shen did with a little help from me. 
+Although it was easy to understand and the solution was the least complex, it involved a 
+lot of code and therefore it took quite some time to complete. You could call it a 
+"mechanical" problem. There was no special algorithm involved - you just needed to follow a
+set of rules to produce the fractals.
+The fourth and final problem we got a correct solution for was the 
+
+Supercluster [RED]
+
+problem. 
+It turned out to be a reasonably straight-forward problem. The reason we took a while to 
+come up with a solution was that the way the problem was described made it a little bit on 
+the difficult side to understand exactly what they were looking for. However, once we 
+realised what the problem was asking for, Shen and I quickly came up with a solution using 
+the Floyd-Warshall algorithm.
+After solving the four problems mentioned above Harry and I worked on the 
+
+Wisdom [PURPLE]
+
+problem.
+This was the most difficult problem of them all - it was a nasty computational geometry 
+problem. Unfortunately we did not put a set of notes together to bring in with us 
+(you are allowed to bring in any printed material including books), because a lot of the
+algorithms required were standard algorithms and it would have been much easier if we had 
+reference material. Since we did not have notes we had to work a little harder on the 
+problem. After a lot of hacking to get it to work and with only a few minutes remaining 
+we got the correct answer for the sample input. We submitted our solution, but with less 
+than two minutes left we got a response from the judges saying that our solution produced 
+a compiler error! It worked on our computer, so we have no idea why it produced a compiler
+error, so I guess we'll never know whether or not we actually had a correct solution.
+
+The final problem was the 
+
+Cable Guy [YELLOW]
+
+problem. It was a very mathematical problem involving
+integration. Shen and I worked on it for some time in between solving the other problems,
+but we made a crucial, fundamental error in our calculations which we didn't realise until 
+after the contest. Since we didn't do the calculations correctly, we couldn't solve the 
+problem. However, had we done the calculations correctly, we had a good idea on how to 
+tackle the problem. 

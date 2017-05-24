@@ -1,0 +1,106 @@
+/**
+ * Once we got started and were given the problems we split them up between the
+ * three of us and we looked for the easy problems. The easiest one was the
+ * 
+ * Prime Concern
+ * 
+ * problem, which Harry coded up in ten minutes. All it required was a brute
+ * force algorithm. The next problem was the
+ * 
+ * Board Game
+ * 
+ * problem which I did. It may look a little confusing at first glance, but it's
+ * not really. We again used a brute force algorithm going, but to optimise it
+ * and make it run quick enough our algorithm swept through the coins from left
+ * to right. Some teams apparently used a brute force without any optimisations
+ * and say it ran in time. There is also a dynamic programming solution which
+ * would be a lot faster. Then Harry and Shen did the
+ * 
+ * Compactor
+ * 
+ * problem together. This was an easy DP problem. If you know DP reasonably well
+ * you should be able to see how to solve this problem.
+ * 
+ * Then Shen and I did the
+ * 
+ * Snake Pit
+ * 
+ * problem. It is a special shortest path problem with several possible
+ * solutions. We used the Floyd-Warshall algorithm to find the shortest path
+ * from the start to end block. However, you also need to take count of the
+ * special plank that can be used anywhere. What we did to cater for the special
+ * plank was to make the edge between two connected blocks (already connected
+ * with a plank) have a weight of one as usual, but the edges between
+ * unconnected blocks have a weight of some large number (this number needs to
+ * be large enough). That way you know how many times the plank was used and the
+ * paths with the plank used more than once can be discarded as they are not
+ * allowed. Another way of solving the problem which some teams used was to find
+ * the shortest path going from the start and also from the end and then
+ * comparing all possible joining nodes and taking the best one.
+ * 
+ * We solved the first four problems in under two hours and therefore had more
+ * than three hours to tackle the last two. We analysed the final two problems
+ * and decided to start with the
+ * 
+ * Word Sums
+ * 
+ * problem. It might look like an easy problem and it is, but it is the sort of
+ * problem that requires a lot of code (relatively, compared to the other
+ * problems) and therefore a lot of bugs pop up easily and are sometimes
+ * difficult to remove in the short period of time in which you are required to
+ * solve the problems.
+ * 
+ * Harry and I started out on the Word Sums problem by writing out a detailed
+ * outline on paper of how we were going to solve the problem while Shen was
+ * busy coding the Snake Pit problem. While we were waiting for him to complete
+ * the problem, we went through the outline look for any potential problems. As
+ * soon as Shen completed the Snake Pit problem and we got a positive response
+ * from the judges Harry started coding the Word Sums problem while I watched
+ * over his shoulder to guide him and look out for possible mistakes.
+ * 
+ * It took us around 45 minutes or so to code up our solution to Word Sums.
+ * After running it on the sample data and some additional test data we created,
+ * we were satisfied and decided to submit. Unfortunately it was our first
+ * incorrect submission of the contest - the judges' response told us that our
+ * program crashed. We tested our program on some more test data to try see
+ * where it was going wrong. I quickly realised where the problem was and after
+ * fixing the bug we re-submitted. Yet again it was an incorrect submission,
+ * however this time our program hadn't crashed, it got the wrong answer. After
+ * running several further tests we found a couple of formatting issues such as
+ * having two spaces between words. We weren't exactly sure whether they would
+ * have had an impact on the judges' decision, but since we couldn't find
+ * anything else wrong we submitted again with the formatting corrected. We
+ * submitted twice more, both times getting back the response "incorrect".
+ * 
+ * At his point we were frantically trying to find out what was wrong with our
+ * code. While Harry and I were coding up our Word Sums solution Shen had been
+ * busy thinking of a solution the final problem, the
+ * 
+ * Feeling Lucky
+ * 
+ * problem, a physics problem - they can be very tricky to get just right. He
+ * had told us that he would require about two hours on the computer to solve
+ * the problem. At this point we had just about two hours remaining. So we were
+ * in a dilemma - should we carry on working on the Word Sums problem to find
+ * out what was wrong with it or should we start on the Feeling Lucky problem.
+ * We decided to give the Feeling Lucky problem a shot. After less than ten
+ * minutes though, Shen said that it was more difficult than he had originally
+ * thought and that we should abandon it. So it was back to frantically
+ * searching for the problem in our code.
+ * 
+ * After testing our program with every test case we could think of I had a
+ * closer look over the whole question description looking for anything we had
+ * possibly missed. While reading the section on when to include the word "and"
+ * in the number, I thought I might have spotted a problem. I pointed it out to
+ * the others and after reading the section very carefully they both agreed that
+ * we had misinterpreted the question slightly. We quickly fixed up the problem
+ * and submitted. Yet again we got the response "incorrect"! At this point we
+ * were completely baffled. We tested yet again plenty times and not once did we
+ * spot a mistake. We even submitted a query to the judges to make sure we
+ * understood the "and" word situation. At this stage we had about 90 minutes
+ * remaining. We were tied for first position with two other teams (this soon
+ * after became three other teams) on four problems. However, we were far ahead
+ * on time. It still made us very nervous that any of those other teams just
+ * needed to solve one more problem and they would win.
+ *  
+ */
