@@ -1,0 +1,9 @@
+Please note that when submitting java programs 
+the main method must exist in a class called Main.
+So always rename class Main before submitting or there will be a 
+Compiler Error
+Classes should not be public
+import classes individually because some classes(such as IO) are
+restricted.
+java.lang.math is ok
+and so is java.util (.* ? It is quite powerful!)
